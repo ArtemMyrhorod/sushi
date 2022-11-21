@@ -5,10 +5,49 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/main.css">
    <title>Sushi</title>
 </head>
 
 <body>
+   <header class="header" id="header">
+      <nav class="header__container container">
+         <a href="#" class="header__logo">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <span class="logo__text">Sushi</span>
+         </a>
+         <div class="header__menu" id="nav-menu">
+            <ul class="header__menu-list">
+               <li class="header__menu-item">
+                  <a href="#home" class="header__menu-link">Home</a>
+               </li>
+               <li class="header__menu-item">
+                  <a href="#about" class="header__menu-link">About us</a>
+               </li>
+               <li class="header__menu-item">
+                  <a href="#popular" class="header__menu-link">Popular</a>
+               </li>
+               <li class="header__menu-item">
+                  <a href="#recently" class="header__menu-link">Recently</a>
+               </li>
+            </ul>
+            <div class="header__menu-close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+            <img src="images/leaf-branch-4.png" alt="nav image" class="header__menu-img-1">
+            <img src="images/leaf-branch-3.png" alt="nav image" class="header__menu-img-2">
+         </div>
+         <div class="header__menu-btns">
+            <!-- <i class="ri-moon-line change-theme" id="theme-btn"></i> -->
+            <div class="header__menu-toggle" id="nav-toggle">
+               <i class="ri-apps-2-line"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <script src="js/main.js"></script>
 </body>
 
 </html>
