@@ -91,3 +91,25 @@ themeButton.addEventListener('click', () => {
    localStorage.setItem('selected-theme', getCurrentTheme());
    localStorage.setItem('selected-icon', getCurrentIcon());
 });
+
+// Scroll Reveal Animation
+const sr = ScrollReveal({
+   origin: "top",
+   distance: "60px",
+   duration: 2500,
+   delay: 400
+});
+
+sr.reveal(`.home__img, .newsletter__container, .footer__logo, .footer__descr, .footer__content, .footer__info`);
+sr.reveal(`.home__info`, {
+   origin: "bottom"
+});
+sr.reveal(`.about__info, .recently__info`, {
+   origin: "left"
+});
+sr.reveal(`.about__img, .recently__img`, {
+   origin: "right"
+});
+sr.reveal(`.popular__card`, {
+   interval: 200
+});

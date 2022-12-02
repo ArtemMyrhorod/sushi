@@ -1101,3 +1101,14 @@ body.dark-theme {
       margin-inline: auto;
    }
 }
+
+@media screen and (min-width: 1280px) {
+
+   .home__leaf-1,
+   .home__leaf-2,
+   .recently__leaf-1,
+   .recently__leaf-2,
+   .footer__decor-3 {
+      width: 200px;
+   }
+}
